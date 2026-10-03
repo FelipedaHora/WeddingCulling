@@ -1,0 +1,39 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Local build tools and intermediate output
+.tools/
+build/
+*.log
+
+# Keep only the distributable installer and its checksum
+/dist/*
+!/dist/installer/
+/dist/installer/*
+!/dist/installer/WeddingCulling-Setup-1.1.0-x64.exe
+!/dist/installer/WeddingCulling-Setup-1.1.0-x64.exe.sha256
+
+# Generated reports and local user data (may contain photographs)
+/relatorio_*/
+/desktop_pipeline_sample/
+/test_appdata*/
+WeddingCulling_Data/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
